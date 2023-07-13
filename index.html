@@ -7,21 +7,30 @@
     <title>HardWare & Softwaret</title>
     <style>
         #teste {
+            /* background-size: cover; cover informa ao navegador que ele 
+            deve se certificar de que a imagem cobrirá sempre o contêiner inteiro (nesse caso, todo o html ) */
             background-size: cover;
-            background-image: url(img/fundo.jpeg);
-            background-repeat:no-repeat;
+            /* background-image: url(img/fundo.jpeg); */
+            background-repeat: no-repeat;
         }
     </style>
 </head>
 
 <body id="teste">
     <h1>Informática básica</h1>
-    <ul>
-        <!--  <li><a href="index.html">Principal</a></li> -->
+      <div id="my_menu" align="right" style="margin-right: 60px; ">
+        <!-- <a href="#">HOME</a> | <a href="#">CONTATO</a> | <a href="#">SOBRE</a> -->
+        <a href="index.html" style="text-decoration: none;"">Principal</a> | <a href="software.html">Software</a> | <a href="hardware.html">HardWare</a> |
+        <a href="web.html">Web</a>
+    </div> 
+    
+    
+    <!-- <ul>
+        <li><a href="index.html">Principal</a></li> 
         <li><a href="software.html">Software</a></li>
         <li><a href="hardware.html">HardWare</a></li>
         <li><a href="web.html">Web</a></li>
-    </ul>
+    </ul> -->
 </body>
 
 </html>
